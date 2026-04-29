@@ -1,0 +1,18 @@
+{
+  "method": "direct diagonal Ruppeiner metric in (T, v_m)",
+  "grid_shape": [
+    61,
+    51
+  ],
+  "valid_metric_cells": 1682,
+  "robust_R_cells": 1445,
+  "frac_robust_R": 0.4644808743169399,
+  "R_min": -0.3589401387304761,
+  "R_max": 0.1280662250421648,
+  "R_median": -0.15452296135393964,
+  "absR_median_R0": 0.15452296135393964,
+  "R_epsilon": 1.5452296135393963e-07,
+  "n_min": 0.006831821602300003,
+  "n_max": 0.9020102034183098,
+  "n_median": 0.6321205588287416
+}

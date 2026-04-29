@@ -1,0 +1,74 @@
+{
+  "method": "Cp prototype from h_total and p_total finite derivatives",
+  "chosen_candidate": {
+    "K0_m3_per_mol": 1e-10,
+    "epsK_K": 1400.0,
+    "alpha0": 0.5,
+    "lambda": 0.3,
+    "valid_cells": 4313,
+    "bad_mechanical_cells": 0,
+    "bad_mechanical_frac_valid": 0.0,
+    "min_dP_drho_molar_valid": 1767.1367045516963,
+    "min_kappa_total_valid": 2.18027637158983e-10,
+    "p_correction_median_MPa": 0.07754852459278601,
+    "p_correction_p01_MPa": -3.9410504653086873,
+    "p_correction_p99_MPa": 0.6222383111563065,
+    "tmd_points_base": 23,
+    "tmd_points_total": 22,
+    "tmd_common_points": 22,
+    "tmd_shift_mean_K": -6.0004219052379035,
+    "tmd_shift_min_K": -12.420256459953578,
+    "tmd_shift_max_K": 1.2056491985727007
+  },
+  "base_file": "/content/cda_eos_numerical_proof_attempt/outputs_curv_step_20/base_fields_grid.npz",
+  "association_file": "/content/cda_eos_numerical_proof_attempt/cda_metric_curvature_nextpass/outputs_assoc_sweep/association_chosen_fields.npz",
+  "total_grid_cells": 8181,
+  "robust_cp_cells": 4009,
+  "robust_cp_fraction": 0.49003789267815673,
+  "Cp_total_mass_stats_J_per_kgK": {
+    "min": 3135.102661352457,
+    "p01": 3333.541912699306,
+    "median": 3936.1987959563803,
+    "p99": 4362.244688769321,
+    "max": 6509.115828169041
+  },
+  "Cp_base_mass_stats_J_per_kgK": {
+    "min": 3199.7404552704943,
+    "p01": 3441.343098157375,
+    "median": 3920.715462542467,
+    "p99": 4166.109892014618,
+    "max": 4287.749438430927
+  },
+  "Cp_delta_mass_stats_J_per_kgK": {
+    "min": -949.7103863457801,
+    "p01": -202.46302996262364,
+    "median": 7.065501689608027,
+    "p99": 321.8477681804878,
+    "max": 2447.793343183422
+  },
+  "Cp_ratio_stats": {
+    "min": 0.7760956276138885,
+    "p01": 0.9451803645162601,
+    "median": 1.0017804381898863,
+    "p99": 1.082536293149539,
+    "max": 1.6044693686495404
+  },
+  "Cp_relative_change_stats": {
+    "min": -0.22390437238611147,
+    "p01": -0.05481963548373996,
+    "median": 0.0017804381898862982,
+    "p99": 0.08253629314953911,
+    "max": 0.6044693686495404
+  },
+  "base_Cp_identity_relative_error_stats": {
+    "min": -0.00017794829649531375,
+    "p01": -0.0001119714940932009,
+    "median": -2.69020454388727e-06,
+    "p99": 3.165200441120142e-06,
+    "max": 3.95975052808234e-06
+  },
+  "Cp_total_le_0_cells": 0,
+  "Cp_total_le_0_frac_robust": 0.0,
+  "p_rho_le_0_cells": 0,
+  "p_rho_le_0_frac_robust": 0.0
+}

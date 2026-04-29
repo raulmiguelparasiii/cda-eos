@@ -1,0 +1,12 @@
+{
+  "valid_cells": 4414,
+  "invalid_cells": 3767,
+  "frac_invalid": 0.4604571568267938,
+  "min_dp_drho_T_valid": 1483523.100913875,
+  "min_kappa_T_valid": 2.167820618782271e-10,
+  "min_cp_valid": 3123.840382602407,
+  "max_cp_valid": 4450.619316096803,
+  "frac_dp_drho_T_le_0_valid": 0.0,
+  "frac_kappa_T_le_0_valid": 0.0,
+  "frac_cp_le_0_valid": 0.0
+}
