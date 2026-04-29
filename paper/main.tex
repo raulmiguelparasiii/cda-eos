@@ -353,7 +353,7 @@ The association sweep then evaluated
   \Delta(T,\rho)=K_0\left(e^{(\varepsilon/R)/T}-1\right)
   \left[\alpha+(1-\alpha)n(T,\rho)\right]
 \end{equation}
-for a modest grid of $(K_0,\varepsilon/R,\alpha,\lambda)$ values. For each parameter set, $X(T,\rho)$, $a_{\mathrm{assoc}}(T,\rho)$, $p_{\mathrm{assoc}}(T,\rho)$, and the pressure-derived $\alpha_p$ and $\kappa_T$ were recomputed. Of 512 tested parameter combinations, 329 retained zero mechanical-stability failures under the screening criteria. One illustrative stable parameter set is shown in Table~\ref{tab:numeric-demo}. The corrected TMD diagnostic for that set is compared with the base diagnostic in Fig.~\ref{fig:tmd-poc}.
+for a modest grid of $(K_0,\varepsilon/R,\alpha,\lambda)$ values. For each parameter set, $X(T,\rho)$, $a_{\mathrm{assoc}}(T,\rho)$, $p_{\mathrm{assoc}}(T,\rho)$, and the pressure-derived $\alpha_p$ and $\kappa_T$ were recomputed. Of 512 tested parameter combinations, 329 retained zero mechanical-stability failures under the screening criteria. One illustrative stable parameter set is summarized in Table~\ref{tab:numeric-demo}. The TMD entry is reported as a grid diagnostic rather than as a fitted TMD curve, because the present calculation is a finite-difference proof-of-concept rather than a converged reference-quality fit.
 
 \begin{table}[htbp]
 \centering
@@ -378,13 +378,6 @@ TMD-diagnostic shift range on common points & $-12.42$ to $+1.21\,\mathrm{K}$ \\
 \bottomrule
 \end{tabular}
 \end{table}
-
-\begin{figure}[htbp]
-\centering
-\includegraphics[width=0.82\textwidth]{figures/fig05_tmd_poc.png}
-\caption{Preliminary TMD diagnostic comparison for the illustrative stable CDA parameter set in Table~\ref{tab:numeric-demo}. The plotted crossing is obtained from the sign change of the pressure-derived expansion coefficient $\alpha_p$. The figure should be read as a proof-of-concept diagnostic, not as a fitted prediction of the physical TMD line.}
-\label{fig:tmd-poc}
-\end{figure}
 
 
 As a further response-function check, the same illustrative parameter set was used to construct a prototype heat-capacity calculation from the assembled total enthalpy. The association entropy was computed as
